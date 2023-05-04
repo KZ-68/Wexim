@@ -1,0 +1,631 @@
+body {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+}
+
+header {
+    background-color: #002D56;
+    display: flex;
+    flex-direction: column;
+}
+
+figure {
+    margin: 15px;
+}
+
+#top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#wexim_header {
+    color: white;
+    width: 96px;
+    padding-left: 20px;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+}
+
+ul.list_menu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-right: 45px;
+}
+
+li {
+    list-style-type: none;
+    font-size: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.link_menu {
+    text-decoration: none;
+    color: white;
+}
+
+.link_menu:hover {
+    color: lightgray;
+}
+
+.img_container_1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 750px;
+    background: linear-gradient(45deg, rgb(112, 0, 218), rgba(0, 0, 0, 0) 90%), linear-gradient(217deg, rgb(56, 242, 255), rgba(0,0,255,0) 100%);
+}
+
+#img_1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./img/unsplash_A6UK4MpjhDEwexim_img.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 750px;
+}
+
+h2.title {
+    color: white;
+    font-size: 45px;
+    text-align: center;
+}
+
+.title_thin {
+    font-weight: 300;
+}
+
+.section_1 {
+    background-color: white;
+    width: 100%;
+}
+
+#section1_container {
+    margin: 200px;
+}
+
+#section1_groupText1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#h3_section1 {
+    color: #00F0FF;
+}
+
+#heading_section1 {
+    font-size: 30px;
+}
+
+#section_groupText2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.zero_one {
+    background: linear-gradient(45deg, rgb(112, 0, 218), rgb(56, 242, 255));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#img_2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./img/imagewexim_img.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 550px;
+}
+
+.img_container_2 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 750px;
+    background: linear-gradient(90deg, rgb(112, 0, 218), rgba(0, 0, 0, 0) 90%), linear-gradient(217deg, rgb(0, 12, 187), rgba(0,0,255,0) 100%);
+}
+
+.text_container {
+    padding-left: 200px;
+}
+
+#basic_info_1 {
+    color: white;
+    font-size: 16px;
+}
+
+#section2_title {
+    color: #4FDFFF;
+    font-size: 32px;
+}
+
+#section2_paragraph {
+    color: white;
+}
+
+.section_3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #F1F1F1;
+}
+
+.section3_container {
+    margin: 200px 110px;
+}
+
+.section3_top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#basic_info_2 {
+    font-size: 12px;
+}
+
+#section3_title {
+    background: linear-gradient(25deg, rgb(112, 0, 218) 65%, rgb(56, 242, 255) 85%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#section3_paragraph {
+    text-align: center;
+    color: #5E5E5E;
+}
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-top: 50px;
+    gap: 10px;
+}
+
+#card1 {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 10px;
+    padding-top: 5px;
+}
+
+#card2 {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 10px;
+    padding-top: 5px;
+}
+
+#card3 {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 10px;
+    padding-top: 5px;
+}
+
+.card_name_container {
+    padding-top: 10px;
+}
+
+.card_name {
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 0;
+    font-weight: 600;
+}
+
+.card_profession {
+    text-align: center;
+    font-size: 14px;
+    color: #7D7D7D;
+    margin-top: 0;
+}
+
+.card_stats {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color:#7D7D7D;
+    padding-top: 20px;
+}
+
+#project {
+    padding-left: 5px;
+    padding-right: 10px;
+}
+
+#ninety {
+    padding-left: 45px;
+}
+
+.progress_bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding: 10px 50px;
+}
+
+#bar_base {
+    position: relative;
+    width: 230px;
+    height: 15px;
+    border-color: #D9D9D9;
+    border-radius: 10px;
+    background: #D9D9D9;
+}
+
+#bar_gradient {
+    position: absolute;
+    width: 190px;
+    height: 15px;
+    background: linear-gradient(90deg, #ff0080 10%, #6200ff 50%, #00F0FF 100%);
+    z-index: 1;
+    border-radius: 10px;
+}
+
+.card_stats2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color:#7D7D7D;
+    padding-top: 10px;
+}
+
+#web {
+    padding-left: 5px;
+    padding-right: 35px;
+}
+
+#seventy_five {
+    padding-left: 45px;
+}
+
+.progress_bar2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 20px;
+}
+
+#bar_base2 {
+    position: relative;
+    width: 230px;
+    height: 15px;
+    border-color: #D9D9D9;
+    border-radius: 10px;
+    background: #D9D9D9;
+}
+
+#bar_gradient2 {
+    position: absolute;
+    width: 170px;
+    height: 15px;
+    background: linear-gradient(90deg, #ff0080 10%, #6200ff 50%, #00F0FF 100%);
+    z-index: 1;
+    border-radius: 10px;
+}
+
+.section_4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#section4_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 125px;
+    margin-bottom: 175px;
+    margin-left: 135px;
+    margin-right: 135px;
+}
+
+#section4_titleBlock {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 200px;
+}
+
+#latest {
+    color: #00C2FF;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+#section4_title {
+    font-size: 32px;
+    font-weight: 600;
+    margin: 0;
+    padding-right: 10px;
+}
+
+#section4_paragraph {
+    color:#7D7D7D;
+    margin: 0;
+    padding: 15px;
+    line-height: 1.5;
+}
+
+#portfolio_description {
+    font-weight: 600;
+    font-size: 16px;
+}
+
+#all_color {
+    color: #6200ff;
+}
+
+#portfolio_images {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 1114px;
+    height: 976px;
+}
+
+#img_group1 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+#img_group2 {
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+}
+
+#portfolio_img1 {
+    width: 285px;
+    height: 490px;
+    margin:0;
+}
+
+#portfolio_img1 img {
+    width: 285px;
+    height: 490px;
+}
+
+#img_group3 {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+#portfolio_img2 {
+    width: 266.34px;
+    height: 245px;
+    margin:0;
+}
+
+#portfolio_img2 img {
+    width: 266.34px;
+    height: 245px;
+}
+
+#portfolio_img3 {
+    width: 266.34px;
+    height: 245px;
+    margin:0;
+}
+
+#portfolio_img3 img {
+    width: 266.34px;
+    height: 245px;
+}
+
+#portfolio_img4 {
+    width: 551px;
+    height: 486px;
+    margin:0;
+}
+
+#portfolio_img4 img {
+    width: 551px;
+    height: 486px;
+}
+
+#img_group4 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+#portfolio_img5 {
+    width: 550px;
+    height: 490px;
+    margin:0;
+}
+
+#portfolio_img5 img {
+    width: 550px;
+    height: 490px;
+}
+
+#img_group5 {
+    display: flex;
+    flex-direction: column;
+}
+
+#portfolio_img6 {
+    width: 550px;
+    height: 226px;
+    margin:0;
+}
+
+#portfolio_img6 img {
+    width: 550px;
+    height: 226px;
+}
+
+#img_group6 {
+    display: flex;
+    flex-direction: row;
+}
+
+#portfolio_img7 {
+    margin: 0;
+}
+
+#portfolio_img7 img {
+    width: 275px;
+    height: 260px;
+}
+
+#portfolio_img8 {
+    margin:0;
+}
+
+#portfolio_img8 img {
+    width: 275px;
+    height: 260px;
+}
+
+.section_5 {
+    display: flex;
+    flex-direction: column;
+    background-color: #F1F1F1;
+}
+
+#section5_container {
+    margin: 200px 125px;
+    display: flex;
+    flex-direction: column;
+    gap: 75px;
+}
+
+.blog {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center ;
+}
+
+#blog_text {
+    padding-left: 68px;
+    padding-right: 30px;
+}
+
+#blog_text2 {
+    padding-left: 30px;
+    padding-right: 68px;
+}
+
+.blog_date {
+    color:#00C2FF;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.blog_heading {
+    font-size: 32px;
+}
+
+.blog_paragraph {
+    font-size: 18px;
+    line-height: 1.5;
+    color: #7D7D7D;
+}
+
+.learn {
+    font-size: 16px;
+    border-style: none;
+    padding: 15px 30px;
+    border-radius: 30px;
+    background: linear-gradient(90deg, #0213ff, #4b00c4);
+    color: white;
+}
+
+#blog_img1 img {
+    width: 490px;
+    height: 350px;
+    padding-right: 60px;
+}
+
+#blog_img2 img {
+    width: 490px;
+    height: 350px;
+    padding-left: 60px;
+}
+
+#section6_container {
+    display: flex;
+    flex-direction: row;
+}
+
+#img_3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./img/unsplash_VNgbqJ-qAjcwexim_img.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1000px;
+    height: 550px;
+}
+
+.img_container_3 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 550px;
+    background: linear-gradient(360deg, #0500FF, rgba(255, 255, 255, 0) 55%), linear-gradient(180deg, #5200FF, rgba(0,0,255,0) 100%);
+}
+
+#section6_h3 {
+    color: white;
+}
+
+#section6_title {
+    color: #00C2FF;
+}
+
+#adress {
+    color: white;
+}
+
+#img_4 {
+    height: 550px;
+}
+
+.img_container_4 {
+    width: 100%;
+    height: 550px;
+}
